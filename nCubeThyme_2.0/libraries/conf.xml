@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<m2m:conf xmlns:m2m="http://www.onem2m.org/xml/protocols" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <cse>
+        <cbhost>192.168.0.46</cbhost>
+        <cbport>7579</cbport>
+        <cbname>mobius-yt</cbname>
+    </cse>
+    <ae>
+        <appos>windows</appos>
+        <appid>0.2.481.1.0001.001.75797579</appid>
+        <appname>ketiricecooker</appname>
+        <applabel>ketiricecooker_label_test</applabel>
+        <appport>9727</appport>
+        <appprotocol>xml</appprotocol>
+        <tasport>3105</tasport>
+        <cilimit>0</cilimit>
+    </ae>
+     <cnt>
+            <parentpath>/ketiricecooker</parentpath>
+            <ctname>hub</ctname>
+           <ctlabel>Home0001</ctlabel>
+  </cnt>
+   <cnt>
+    <parentpath>/ketiricecooker</parentpath>
+    <ctname>powerstatus</ctname>
+    <ctlabel>Home0002</ctlabel>    
+  </cnt>
+   <cnt>
+    <parentpath>/ketiricecooker</parentpath>
+    <ctname>gaslock</ctname>
+    <ctlabel>Home0003</ctlabel>    
+  </cnt>
+  <cnt>
+    <parentpath>/ketiricecooker</parentpath>
+    <ctname>openstatus</ctname>
+    <ctlabel>Home0004</ctlabel>    
+  </cnt>
+ <cnt>
+    <parentpath>/ketiricecooker</parentpath>
+    <ctname>hubdata</ctname>
+    <ctlabel>Home0005</ctlabel>    
+  </cnt>
+ <cnt>
+    <parentpath>/ketiricecooker</parentpath>
+    <ctname>gaslockdata</ctname>
+    <ctlabel>Home0006</ctlabel>    
+  </cnt>
+  <cnt>
+    <parentpath>/ketiricecooker</parentpath>
+    <ctname>powerstatusdata</ctname>
+    <ctlabel>Home0007</ctlabel>    
+  </cnt>
+  <cnt>
+    <parentpath>/ketiricecooker</parentpath>
+    <ctname>openstatusdata</ctname>
+    <ctlabel>Home0008</ctlabel>    
+  </cnt>
+  
+  <sub>
+    <parentpath>/ketiricecooker/gaslock</parentpath>
+    <subname>sub_g</subname>
+    <nu>mqtt://AUTOSET</nu>
+    <!--<nu>http://autoset/notification</nu>-->
+  </sub>
+
+  <sub>
+    <parentpath>/ketiricecooker/powerstatus</parentpath>
+    <subname>sub_s</subname>
+     <nu>mqtt://AUTOSET</nu>
+    <!--<nu>http://autoset/notification</nu>-->
+  </sub>
+
+  <sub>
+    <parentpath>/ketiricecooker/hub</parentpath>
+    <subname>sub_h</subname>
+   <nu>mqtt://AUTOSET</nu>
+    <!--<nu>http://autoset/notification</nu>-->
+
+  </sub>
+    <sub>
+    <parentpath>/ketiricecooker/openstatus</parentpath>
+    <subname>sub_os</subname>
+    <nu>mqtt://AUTOSET</nu>
+    <!--<nu>http://autoset/notification</nu>-->
+  </sub>
+    
+</m2m:conf>
