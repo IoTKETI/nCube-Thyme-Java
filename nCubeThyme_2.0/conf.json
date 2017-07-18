@@ -1,10 +1,10 @@
 {
     "useprotocol": "http",
     "cse": {
-        "cbhost": "192.168.0.56",
+        "cbhost": "203.253.128.161",
         "cbport": "7579",
-        "cbname": "mobius-yt",
-        "cbcseid": "/mobius-yt",
+        "cbname": "Mobius",
+        "cbcseid": "/Mobius",
         "mqttport": "1883"
     },
     "ae": {

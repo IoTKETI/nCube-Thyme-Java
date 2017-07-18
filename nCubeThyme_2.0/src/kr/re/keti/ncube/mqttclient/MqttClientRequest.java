@@ -10,7 +10,7 @@ public class MqttClientRequest {
 						"xmlns:m2m=\"http://www.onem2m.org/xml/protocols\"\n" +
 						"xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\n" +
 						"<rsc>2000</rsc>" + 
-						"<to>mobius-yt</to>" +
+						"<to>Mobius</to>" +
 						"<fr>nCube:Thyme</fr>" +
 						"<rqi>" + response.get(0) + "</rqi>" +
 						"<pc></pc>" +
