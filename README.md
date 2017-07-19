@@ -10,14 +10,16 @@
 
 ## Installation
 &Cube-Thyme for Java is developed with java.
+- [JDK(Java Development Kit)]
+Download and install Java SE JDK at ORACLE website from the URL.(http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 <div align="center">
-<img src="https://user-images.githubusercontent.com/29790334/28315422-497d1300-6bf9-11e7-92c7-a0f82d8b4a29.png" width="400"/>
+<img src="https://user-images.githubusercontent.com/29790334/28374986-4556eae2-6ce1-11e7-9867-6e36660cda05.png" width="800"/>
 </div><br/>
-
-- [Node.js](https://nodejs.org/en/)<br/>
-Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js' package ecosystem, npm, is the largest ecosystem of open source libraries in the world. Node.js is very powerful in service impelementation because it provide a rich and free web service API. So, we use it to make RESTful API base on the oneM2M standard.
-- [&Cube-Thyme for Node.js](https://github.com/IoTKETI/nCube-Thyme-Nodejs/archive/master.zip)<br/>
-&Cube-Thyme for Node.js source codes are written in javascript. So they don't need any compilation or installation before running.
+- [Eclipse IDE]
+Download and install Eclipse IDE from the URL.(http://eclipse.org)
+<div align="center">
+<img src="https://user-images.githubusercontent.com/29790334/28374996-4eb3d88e-6ce1-11e7-98e8-de511b0c9e4f.png" width="800"/>
+</div><br/>
 
 ## Configuration
 - Open the &Cube-Thyme for Java project
@@ -59,17 +61,6 @@ Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.j
     ]
 
 ```
-## Export
-
-## Running
-Use runnable jar execution command as below
-```
-java -jar thyme.jar
-```
-
-<div align="center">
-<img src="https://user-images.githubusercontent.com/29790334/28315420-494a8138-6bf9-11e7-8947-9c0f78b67166.png" width="640"/>
-</div><br/>
 
 ## Dependency External Libraries
 This is the list of external library dependencies for &Cube:Thyme Java 
@@ -78,7 +69,7 @@ This is the list of external library dependencies for &Cube:Thyme Java
 - org.eclipse.paho.client.mqttv3
 
 ## Document
-If you want more details please dowload the full [installation guide document](https://github.com/IoTKETI/nCube-Thyme-Nodejs/blob/master/doc/User_Guide_Thyme_Nodejs_v2.0.0_KR.docx).
+If you want more details please dowload the full [installation guide document](https://github.com/IoTKETI/nCube-Thyme-Java/raw/master/doc/(English)%20nCube-Thyme-Java.pdf).
 
 # Author
 Nak-Myoung Sung (nmsung@keti.re.kr; diesnm201@gmail.com)
