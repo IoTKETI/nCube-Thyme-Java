@@ -2,7 +2,7 @@
 ## Introduction
 &Cube-Thyme is an open source IoT device application entity based on the oneM2M (http://www.oneM2M.org) standard. &Cube-Thyme consists of three versions: Node.js version, Java version and Android version.
 
-## Connectivity stucture
+## Connectivity structure
 &Cube-Thyme implementation of oneM2M ADN-AE can be connected to MN-CSE or IN-CSE.
 <div align="center">
 <img src="https://user-images.githubusercontent.com/29790334/28315421-497cf0b4-6bf9-11e7-9e67-61e4c351c035.png" width="600"/>
